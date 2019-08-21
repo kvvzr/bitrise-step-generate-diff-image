@@ -1,4 +1,4 @@
-# generate-diff-image
+# generate-image-difference
 
 Generate a difference image from two images. Images can be specified by file or directory. Useful for checking UI etc.
 

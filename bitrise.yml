@@ -7,9 +7,9 @@ app:
     - TEST_BEFORE_IMAGES: "$TEST_BEFORE_IMAGES"
     - TEST_AFTER_IMAGES: "$TEST_AFTER_IMAGES"
     # If you want to share this step into a StepLib
-    - BITRISE_STEP_ID: generate-diff-image
+    - BITRISE_STEP_ID: generate-image-difference
     - BITRISE_STEP_VERSION: "0.0.1"
-    - BITRISE_STEP_GIT_CLONE_URL: https://github.com/kvvzr/bitrise-step-generate-diff-image.git
+    - BITRISE_STEP_GIT_CLONE_URL: https://github.com/kvvzr/bitrise-step-generate-image-difference.git
     - MY_STEPLIB_REPO_FORK_GIT_URL: $MY_STEPLIB_REPO_FORK_GIT_URL
 
 workflows:

@@ -8,14 +8,14 @@
 # - Bitrise CLI guides: http://devcenter.bitrise.io/bitrise-cli/
 
 title: |-
-  generate-diff-image
+  generate-image-difference
 summary: |
   Generate a difference image from two images.
 description: |
   Generate a difference image from two images. Images can be specified by file or directory. Useful for checking UI etc.
-website: https://github.com/kvvzr/bitrise-step-generate-diff-image
-source_code_url: https://github.com/kvvzr/bitrise-step-generate-diff-image
-support_url: https://github.com/kvvzr/bitrise-step-generate-diff-image/issues
+website: https://github.com/kvvzr/bitrise-step-generate-image-difference
+source_code_url: https://github.com/kvvzr/bitrise-step-generate-image-difference
+support_url: https://github.com/kvvzr/bitrise-step-generate-image-difference/issues
 host_os_tags:
   - osx-10.10
   - ubuntu-16.04
@@ -51,7 +51,7 @@ run_if: ""
 
 toolkit:
   go:
-    package_name: github.com/kvvzr/bitrise-step-generate-diff-image
+    package_name: github.com/kvvzr/bitrise-step-generate-image-difference
 
 inputs:
   - before_images:
